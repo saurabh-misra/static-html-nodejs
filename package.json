@@ -1,0 +1,22 @@
+{
+  "name": "static-html-nodejs",
+  "version": "1.0.0",
+  "description": "Tutorial files for understanding how to render a static HTML file in NodeJS and ExpressJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Saurabh Misra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
